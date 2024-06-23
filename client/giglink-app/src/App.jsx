@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BottomSide } from './components/BottomSide'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <div>
-      <h1>главная страница</h1>
-    </div>
+      <BottomSide />
     </>
   )
 }
